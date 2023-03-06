@@ -1,2 +1,2 @@
 
-console.log("Testing");
+console.log(process.env.wow);

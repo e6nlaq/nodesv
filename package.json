@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/e6nlaq/nodesv/issues"
   },
-  "homepage": "https://github.com/e6nlaq/nodesv#readme"
+  "homepage": "https://github.com/e6nlaq/nodesv#readme",
+  "dependencies": {
+    "scloudjs": "^1.2.6"
+  }
 }
