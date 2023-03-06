@@ -1,0 +1,19 @@
+{
+  "name": "nodesv",
+  "version": "1.0.0",
+  "description": "ほんとにgithubでnode.js鯖建てれんのテスト",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e6nlaq/nodesv.git"
+  },
+  "author": "=",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e6nlaq/nodesv/issues"
+  },
+  "homepage": "https://github.com/e6nlaq/nodesv#readme"
+}
