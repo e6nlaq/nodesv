@@ -18,6 +18,8 @@ jobs:
   build:
     env:
       wow: ${{ secrets.wow }}
+      username: ${{ secrets.name }}
+      password: ${{ secrets.pass }}
 
     runs-on: ubuntu-latest
 
