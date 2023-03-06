@@ -7,7 +7,7 @@ const main = (data) => {//メッセージを受け取ったときにどんな処
     const changedlists = temp.changedlists;//変更された変数一覧
     // scloudjs.sendtocloud("HOST", 19);//変数HOSTを19にする
 
-    scloudjs.sendtocloud("sys", clouddatas.d["value" + 1]);
+    scloudjs.sendtocloud("sys", clouddatas["sys"].value + 1);
 
     // console.log(clouddatas);
     // console.log(changedlists);
