@@ -8,7 +8,8 @@ const main = (data) => {//メッセージを受け取ったときにどんな処
     // scloudjs.sendtocloud("HOST", 19);//変数HOSTを19にする
     // clouddatas["HOST"].value = 19 //自分で設定したクラウド変数はメッセージとしてデータをもらうことができないので自分で設定する
 
-    console.log("wow!");
+    console.log(clouddatas);
+    console.log(changedlists);
 };
 
 scloudjs.setdatas(process.env.username, process.env.password, "814084257", main);//いろいろデータを設定する
